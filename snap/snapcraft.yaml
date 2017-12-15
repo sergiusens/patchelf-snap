@@ -19,6 +19,10 @@ description: |
 grade: stable
 confinement: classic
 
+apps:
+  patchelf:
+    command: bin/patchelf
+
 parts:
   patchelf:
     source: https://github.com/NixOS/patchelf.git
